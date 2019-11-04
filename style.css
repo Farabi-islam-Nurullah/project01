@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{}
+.wrapper{
+    width: 1170px;
+    display: block;
+    margin: auto;
+    /* background-color: rgba(128, 128, 128, 0.253); */
+ 
+ 
+  
+/* font-family: 'Montserrat', sans-serif;   */
+/* font-family: 'Poppins', sans-serif; */
+
+}
+
+.header-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header-section .logo{}
+.header-section .logo img{
+    width: 100px;
+    padding-left: 30px;
+  
+}
+.header-section .meno{}
+.header-section .meno ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+   height: 100%;
+   
+}
+.header-section .meno ul li{}
+.header-section .meno ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 13px 38px;
+    text-transform: capitalize;
+   
+} 
+.header-section .meno ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white
+}
+/*-------End header section------------*/
+
+.banar-section{
+    margin-bottom: 80px;
+}
+.banar-section img{
+    max-width: 100%;
+} /*-------End banar section------------*/
+
+.container{
+    font-family: 'Lato', sans-serif;  
+   padding-bottom: 90px;
+}
+.container .container-heading{
+    width: 100%;
+}
+.container .container-heading h2{
+    text-align: center;
+   padding-bottom: 30px;
+    font-size: 35px;
+    text-transform: capitalize;
+  
+}
+.container .main-box{
+    display: flex;
+    justify-content: space-between;
+}
+.container .main-box .box1{
+    display: flex;
+    flex: 1;
+    background-color: rgba(128, 128, 128, 0.479);
+    margin-right: 20px;
+    
+}
+.container .main-box .box1 .text-box{
+    padding: 20px;
+}
+.container .main-box .box1 img{
+    width: 250px;
+    height: 100%;
+}
+.container .main-box .box1 .text-box h2{
+    padding-bottom: 10px;
+    text-transform:capitalize;
+    font-size: 23px;
+}
+.container .main-box .box1 .text-box p{
+    text-align: justify;
+}
+
+/*-------End container section------------*/
+
+
+.team-section{
+    font-family: 'Roboto', sans-serif;
+}
+.team-section .team-heading{
+    padding:10px
+}
+.team-section .team-heading h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+.team-section .team-heading p{
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+}
+.team-section .all-team-member{
+    display: flex;
+    justify-content: space-around;
+}
+.team-section .single-team{
+    width: 350px;
+    border: 1px solid #cccccc;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.253);
+}
+.single-team:hover{
+   background: rgba(255, 0, 0, 0.26);
+   transition: all 1s;
+   transform: translate(2);
+}
+.team-section .single-team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:20px 90px 30px;
+    text-align: center;
+   
+   
+}
+.team-section .single-team h2{
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    text-align: center;
+}
+.team-section .single-team p{
+    padding: 0px 20px 30px;
+}
+.team-section .single-team ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+} 
+.team-section .single-team ul li {
+    padding: 9px;
+} 
+.team-section .single-team ul li a{
+    text-decoration: none;
+    font-size: 33px;
+} 
+
+.fa-facebook-official{
+    color: #3b5998;
+}
+.fa-twitter-square{
+    color:#00acee;
+}
+.fa-google-plus-square{
+    color:rgb(221, 75, 57);
+}
+.fa-pinterest-square{
+    color: #c8232c;
+}
+
+
+.team-section .join-team{
+    text-align: center;
+    padding: 80px 0px;
+}
+.team-section .join-team button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #373737;
+    color:white;
+    font-size: 18px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.253);
+} 
+.team-section .join-team button:hover{
+    color: black;
+    background-color: #C2C2C2;
+   
+}
+.team-section .join-team button:focus{
+    outline: none;
+}
+    /*-------End team section------------*/
+
+
+.contact-section{
+    font-family: 'Raleway', sans-serif;
+    background-color: #E5E5E5;
+    padding: 10px 20px 40px 20px;
+}
+.contact-section .contact-heading{
+    text-align: center;
+    padding: 40px 0px ;
+    text-transform: capitalize;
+}
+.contact-section .contact-heading h1{
+    padding-bottom: 20px;
+}
+.contact-section .contact-heading p{}
+.contact-section .map-form{
+    display: flex;
+}
+.contact-section .map-form .form-box{
+    flex: 1;
+}
+
+.contact-section .map-form .form-box .form-box-inner{
+   
+    width: 90%;
+}
+.contact-section .map-form .form-box .form-box-inner input{
+    width: 100%;
+    padding: 9px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid  #d9d9d9;
+    display: block;
+}
+.contact-section .map-form .form-box .form-box-inner textarea{
+    display: block;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid  #d9d9d9;
+    margin: 10px 0px 10px 0px;
+   
+}
+.contact-section .map-form .form-box .form-box-inner textarea::placeholder{
+    padding: 10px;
+}
+.contact-section .map-form .form-box .form-box-inner input:focus{
+   outline: none;
+}
+.contact-section .map-form .form-box .form-box-inner button{
+    padding: 10px 15px;
+   
+    background-color: white;
+    border-radius: 3px;
+}
+.contact-section .map-form .form-box .form-box-inner textarea:focus{
+    outline: none;
+ }
+ .contact-section .map-form .form-box .form-box-inner button:focus{
+    outline: none;
+ }
+.contact-section .map-form .map-box{
+    flex: 1;
+} /*-------End contact section------------*/
